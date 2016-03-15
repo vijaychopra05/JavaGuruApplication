@@ -1,0 +1,479 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical" >
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:shrinkColumns="*"
+        android:stretchColumns="*"
+        >
+        <!-- Row 1 with single column -->
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="1. What of the following is the default value of an instance variable?"
+                android:layout_span="4"
+                android:padding="18dip"
+                />
+        </TableRow>
+        <!-- Row 2 with 3 columns -->
+        <TableRow
+            android:id="@+id/tableRow01"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <RadioGroup
+                android:id="@+id/answer1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4" >
+                <RadioButton
+                    android:id="@+id/answer1A"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="null" />
+                <RadioButton
+                    android:id="@+id/answer1B"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="0" />
+                <RadioButton
+                    android:id="@+id/answer1C"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="depends on the type"
+                    />
+                <RadioButton
+                    android:id="@+id/answer1d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="not assigned"
+                    />
+
+            </RadioGroup>
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal">
+            <TextView
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="2. What is the size of long variable?"
+
+
+
+                android:layout_span="4"
+                android:padding="18dip"
+                />
+        </TableRow>
+        <!-- Row 2 with 3 columns -->
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <RadioGroup
+                android:id="@+id/answer2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4" >
+                <RadioButton
+                    android:id="@+id/answer2A"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="8 bit" />
+                <RadioButton
+                    android:id="@+id/answer2B"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="16 bit" />
+                <RadioButton
+                    android:id="@+id/answer2C"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="32 bit" />
+                <RadioButton
+                    android:id="@+id/answer2d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="64 bit" />
+
+            </RadioGroup>
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="3. What is the default value of double variable?"
+                android:layout_span="4"
+                android:padding="18dip"
+                />
+        </TableRow>
+        <!-- Row 2 with 3 columns -->
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <RadioGroup
+                android:id="@+id/answer3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4" >
+                <RadioButton
+                    android:id="@+id/answer3A"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text=" 0.0d" />
+                <RadioButton
+                    android:id="@+id/answer3B"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="0.0f" />
+                <RadioButton
+                    android:id="@+id/answer3C"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="0" />
+                <RadioButton
+                    android:id="@+id/answer3d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="not defined" />
+
+            </RadioGroup>
+        </TableRow>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="4. What is inheritance?"
+            android:layout_span="4"
+            android:padding="18dip"
+            />
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <RadioGroup
+                android:id="@+id/answer4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4" >
+                <RadioButton
+                    android:id="@+id/answer4a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="It is the process where one object acquires the properties of another." />
+                <RadioButton
+                    android:id="@+id/answer4b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="is the ability of an object to take on many forms." />
+                <RadioButton
+                    android:id="@+id/answer4c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text=" is a technique to define different methods of same type." />
+                <RadioButton
+                    android:id="@+id/answer4d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="None of the above." />
+
+            </RadioGroup>
+        </TableRow>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="5. When static binding occurs?"
+            android:layout_span="4"
+            android:padding="18dip"
+            />
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <RadioGroup
+                android:id="@+id/answer5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4" >
+                <RadioButton
+                    android:id="@+id/answer5a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="Static binding occurs during Compile time." />
+                <RadioButton
+                    android:id="@+id/answer5b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="Static binding occurs during load time." />
+                <RadioButton
+                    android:id="@+id/answer5c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="Static binding occurs during runtime." />
+                <RadioButton
+                    android:id="@+id/answer5d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="None of the above." />
+
+            </RadioGroup>
+        </TableRow>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="6.What is an applet?"
+            android:layout_span="4"
+            android:padding="18dip"
+            />
+        <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <RadioGroup
+                android:id="@+id/answer6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4" >
+                <RadioButton
+                    android:id="@+id/answer6a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="A - An applet is a Java program that runs in a Web browser." />
+                <RadioButton
+                    android:id="@+id/answer6b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="Applet is a standalone java program." />
+                <RadioButton
+                    android:id="@+id/answer6c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text=" Applet is a tool." />
+                <RadioButton
+                    android:id="@+id/answer6d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="Applet is a runtime enviornment" />
+
+            </RadioGroup>
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="7. Is an empty .java file a valid source file?"
+                android:layout_span="4"
+                android:padding="18dip"
+                />
+        </TableRow>
+        <!-- Row 2 with 3 columns -->
+        <TableRow
+            android:id="@+id/tableRow7"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <RadioGroup
+                android:id="@+id/answer7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4" >
+                <RadioButton
+                    android:id="@+id/answer7A"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="True" />
+                <RadioButton
+                    android:id="@+id/answer7B"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="False" />
+            </RadioGroup>
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="8. Is it necessary that each try block must be followed by a catch block?"
+                android:layout_span="4"
+                android:padding="18dip"
+                />
+        </TableRow>
+        <!-- Row 2 with 3 columns -->
+        <TableRow
+            android:id="@+id/tableRow8"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <RadioGroup
+                android:id="@+id/answer8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4" >
+                <RadioButton
+                    android:id="@+id/answer8A"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="True" />
+                <RadioButton
+                    android:id="@+id/answer8B"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="False" />
+            </RadioGroup>
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="9. Which of the following is true about String?"
+                android:layout_span="4"
+                android:padding="18dip"
+                />
+        </TableRow>
+        <!-- Row 2 with 3 columns -->
+        <TableRow
+            android:id="@+id/tableRow9"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <RadioGroup
+                android:id="@+id/answer9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4" >
+                <RadioButton
+                    android:id="@+id/answer9A"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="String is mutable." />
+                <RadioButton
+                    android:id="@+id/answer9B"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="String is immutable." />
+                <RadioButton
+                    android:id="@+id/answer9C"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="String is a data type." />
+                <RadioButton
+                    android:id="@+id/answer9d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="None of the above" />
+            </RadioGroup>
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="10. Can try statements be nested?"
+                android:layout_span="4"
+                android:padding="18dip"
+                />
+        </TableRow>
+        <!-- Row 2 with 3 columns -->
+        <TableRow
+            android:id="@+id/tableRow10"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <RadioGroup
+                android:id="@+id/answer10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4" >
+                <RadioButton
+                    android:id="@+id/answer10A"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="True" />
+                <RadioButton
+                    android:id="@+id/answer10B"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="False" />
+            </RadioGroup>
+        </TableRow>
+
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal">
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:gravity="center"
+                android:text="Submit"
+                />
+        </TableRow>
+    </TableLayout>
+</ScrollView>
